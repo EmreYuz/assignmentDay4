@@ -11,6 +11,8 @@ public class Main {
         PlayerManager playerManager = new PlayerManager(new ValidationManager());
         playerManager.signUp(player);
 
+
+
         SellingManager sellingManager = new SellingManager();
         sellingManager.buyWithCampaign(campaign, player, game1);
         sellingManager.buyWithoutCampaign(player, game2);
